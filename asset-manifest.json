@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ReactCarsTask/static/css/main.34186504.css",
+    "main.js": "/ReactCarsTask/static/js/main.2bd2186a.js",
+    "static/js/787.0adc0c45.chunk.js": "/ReactCarsTask/static/js/787.0adc0c45.chunk.js",
+    "index.html": "/ReactCarsTask/index.html",
+    "main.34186504.css.map": "/ReactCarsTask/static/css/main.34186504.css.map",
+    "main.2bd2186a.js.map": "/ReactCarsTask/static/js/main.2bd2186a.js.map",
+    "787.0adc0c45.chunk.js.map": "/ReactCarsTask/static/js/787.0adc0c45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34186504.css",
+    "static/js/main.2bd2186a.js"
+  ]
+}
