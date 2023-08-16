@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.header {
+}
+
+.up {
+  height: 40px;
+  background-color: #f6f7fa;
+}
+
+.down {
+  height: 60px;
+  background-color: #ca1016;
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > * {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+  height: 100%;
+  font-family: "Lato", sans-serif;
+  list-style: none;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 15px;
+}
+
+.up .container * {
+  color: black;
+}
+
+.down * {
+  color: #f6f7fa;
+}
+
+.brand {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.item {
+  font-weight: 100;
+}
+
+.hidden-text {
+  color: transparent;
+}
+
+.up .container-left a {
+  color: gray;
+}
+
+.up .container-right * {
+  color: gray;
+}
+
+.up .container-right *:hover {
+  color: #ca1016;
+}
+
+.phone-number {
+  color: black !important;
+  margin-right: 6px;
+}
+
+.phone-number:hover {
+  color: #ca1016 !important;
+}
+
+.up .container-right a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#login-image {
+  height: 30px;
+  width: 30px;
+}
+
+.up .container-right a img {
+  height: 20px;
+  width: 20px;
+}
+
+@media only screen and (max-width: 1550px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  h4 {
+    display: none;
+  }
+
+  .up .container-right {
+    display: none;
+  }
+}

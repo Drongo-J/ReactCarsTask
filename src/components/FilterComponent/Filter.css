@@ -1,0 +1,35 @@
+
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1010px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.filter-container-left{
+  padding: 5px 0px;
+  display: flex;
+  gap: 20px;
+}
+
+.filter-container-right{
+  padding: 5px 0px;
+}
+
+.font-awesome-icon{
+  margin-right: 10px;
+}
+
+.filter-button{
+  background-color: #5d9cec;
+  border: 2px solid #5d9cec;
+}
+
+@media only screen and (max-width: 1010px) {
+  .filter-container {
+    width: 100%;
+  }
+}

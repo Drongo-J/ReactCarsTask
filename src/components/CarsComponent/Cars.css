@@ -1,0 +1,13 @@
+.cars-container {
+  width: 1090px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1010px) {
+  .cars-container {
+    width: 100%;
+  } 
+}

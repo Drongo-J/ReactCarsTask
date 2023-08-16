@@ -1,0 +1,28 @@
+.shop-cover img {
+  max-height: 323px;
+  height: 323px;
+}
+
+.shop-container {
+  width: 1010px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: #192843;
+}
+
+.shop-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+@media only screen and (max-width: 1010px) {
+  .shop-cover img {
+    width: 100%;
+    height: auto;
+  }
+
+  .shop-container {
+    height: auto;
+    width: 100%;
+  }
+}
