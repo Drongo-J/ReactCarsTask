@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Car.css";
 
 export default function Car({ carData, updateCar }) {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   function callUpdateCar() {
     updateCar(carData);
   }
@@ -9,9 +11,10 @@ export default function Car({ carData, updateCar }) {
   return (
     <div className="car-card" onClick={() => callUpdateCar()}>
       <img
-        src={carData.ImagePath}
-        alt={`${carData.Brand} ${carData.Model}`}
-        className="car-image"
+        src={!imageLoaded ? "https://media.aykhan.net/assets/images/step-it-academy/react/task6/car-image.jpg" : carData.ImagePath}
+        alt={!imageLoaded ? "Loading..." : `${carData.Brand} ${carData.Model}`}
+        className={`car-image ${imageLoaded ? "visible" : ""}`}
+        onLoad={() => setImageLoaded(true)}
       />
       <div className="car-price">
         <strong>Price: ${carData.Price}</strong>

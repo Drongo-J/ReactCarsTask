@@ -46,9 +46,13 @@ export default function Filter({ addCar, handleSortByPrice, handleSortByBrand, p
           />
           {brandSortType === "A to Z" ? "A to Z" : "Z to A"}
         </Button>
+
+        <Button className="filter-button hidden-add-btn" onClick={() => handleAddClick()}>
+          <FontAwesomeIcon icon={faPlus} /> Add Advertisement
+        </Button>
       </div>
 
-      <div className="filter-container-right">
+      <div className="filter-container-right visible-add-btn">
         <Button className="filter-button" onClick={() => handleAddClick()}>
           <FontAwesomeIcon icon={faPlus} /> Add Advertisement
         </Button>

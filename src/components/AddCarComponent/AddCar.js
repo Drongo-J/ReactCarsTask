@@ -66,6 +66,7 @@ export default function AddCar({ goBack }) {
           <FormGroup>
             <Label for="brand">Brand</Label>
             <Input
+              required
               type="text"
               id="brand"
               placeholder="Enter Brand Name"
@@ -76,6 +77,7 @@ export default function AddCar({ goBack }) {
           <FormGroup>
             <Label for="model">Model</Label>
             <Input
+              required
               type="text"
               id="model"
               placeholder="Enter Model Name"
@@ -86,6 +88,7 @@ export default function AddCar({ goBack }) {
           <FormGroup>
             <Label for="year">Year</Label>
             <Input
+              required
               type="number"
               id="year"
               placeholder="Enter Year of Car"
@@ -98,6 +101,7 @@ export default function AddCar({ goBack }) {
           <FormGroup>
             <Label for="price">Price</Label>
             <Input
+              required
               type="number"
               id="price"
               placeholder="Enter Price"
@@ -109,6 +113,7 @@ export default function AddCar({ goBack }) {
           <FormGroup>
             <Label for="mileage">Mileage</Label>
             <Input
+              required
               type="number"
               id="mileage"
               placeholder="Enter Mileage"
@@ -120,6 +125,7 @@ export default function AddCar({ goBack }) {
           <FormGroup>
             <Label for="imageUrl">Image URL</Label>
             <Input
+              required
               type="text"
               id="imageUrl"
               placeholder="Enter Car Image URL"

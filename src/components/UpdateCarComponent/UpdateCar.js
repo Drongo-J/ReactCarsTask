@@ -55,11 +55,12 @@ export default function UpdateCar({ goBack, carData }) {
       </button>
 
       <div>
-        <h3>Add Car</h3>
+        <h3>Update Car</h3>
         <Form onSubmit={handleSubmit}>
           <FormGroup>
             <Label for="brand">Brand</Label>
             <Input
+              required
               type="text"
               id="brand"
               placeholder="Enter Brand Name"
@@ -70,6 +71,7 @@ export default function UpdateCar({ goBack, carData }) {
           <FormGroup>
             <Label for="model">Model</Label>
             <Input
+              required
               type="text"
               id="model"
               placeholder="Enter Model Name"
@@ -80,6 +82,7 @@ export default function UpdateCar({ goBack, carData }) {
           <FormGroup>
             <Label for="year">Year</Label>
             <Input
+              required
               type="number"
               id="year"
               placeholder="Enter Year of Car"
@@ -92,6 +95,7 @@ export default function UpdateCar({ goBack, carData }) {
           <FormGroup>
             <Label for="price">Price</Label>
             <Input
+              required
               type="number"
               id="price"
               placeholder="Enter Price"
@@ -103,6 +107,7 @@ export default function UpdateCar({ goBack, carData }) {
           <FormGroup>
             <Label for="mileage">Mileage</Label>
             <Input
+              required
               type="number"
               id="mileage"
               placeholder="Enter Mileage"
@@ -114,6 +119,7 @@ export default function UpdateCar({ goBack, carData }) {
           <FormGroup>
             <Label for="imageUrl">Image URL</Label>
             <Input
+              required
               type="text"
               id="imageUrl"
               placeholder="Enter Car Image URL"

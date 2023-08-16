@@ -1,5 +1,4 @@
 
-
 .filter-container {
   display: flex;
   justify-content: space-between;
@@ -8,7 +7,6 @@
   margin-top: 10px;
   margin-bottom: 15px;
 }
-
 .filter-container-left{
   padding: 5px 0px;
   display: flex;
@@ -28,8 +26,27 @@
   border: 2px solid #5d9cec;
 }
 
-@media only screen and (max-width: 1010px) {
+@media only screen and (max-width: 1030px) {
   .filter-container {
-    width: 100%;
+    width: 90%;
+  }
+}
+
+.hidden-add-btn{
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 780px) {
+  .hidden-add-btn {
+    visibility: visible;
+  }
+
+  .visible-add-btn {
+    display: none;
+  }
+
+  .filter-container-left{
+    padding: 0px 8px;
+    justify-content: space-evenly;
   }
 }
